@@ -1,0 +1,47 @@
+body{
+    font-family: calibri;
+    margin: 0;
+    padding: 0;
+    background-image: url(photo.jpeg);
+    background-size: cover;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20%;
+    color: white;
+    background: rgba(15, 14, 14, 0.849);
+    padding: 35px;
+}
+label{
+    display: block;
+    width: 100%;
+}
+input{
+    border: 1px solid white;
+    height: 18px;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 75%;
+    background: none;
+   color: white;
+}
+button{
+    margin: 10px;
+    width: 75%;
+    height: 18px;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all 0.8s;
+}
+button:hover{
+    background: rgba(202, 31, 31, 0.692);
+    color: rgb(40, 44, 77);
+    border: 1px solid white;
+
+}
