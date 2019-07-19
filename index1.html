@@ -23,6 +23,31 @@
 
     <link rel="stylesheet" href="style.css">
 
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js" type="text/javascript"></script>
+
+    <style type="text/css">
+        @import url("http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css");
+        #feedControl {
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 440px;
+            font-size: 12px;
+            color: #9CADD0;
+        }
+    </style>
+    <script type="text/javascript">
+        function load() {
+            var feed = "http://feeds.bbci.co.uk/news/world/rss.xml";
+            new GFdynamicFeedControl(feed, "feedControl");
+
+        }
+        google.load("feeds", "1");
+        google.setOnLoadCallback(load);
+    </script>
+
 </head>
 
 <body>
@@ -287,33 +312,27 @@
                     </div>
                     <div class="col-md-4">
                         <div class="row align-items-center">
-                            <div class="col-lg-12 col-xl-4 no-sm-border border-right">
-                                <input type="text" class="form-control" placeholder="Artists">
-                            </div>
-                            <div class="col-lg-12 col-xl-3 no-sm-border border-right">
-                                <div class="wrap-icon">
-                                    <span class="icon icon-room"></span>
-                                    <input type="text" class="form-control" placeholder="songs">
-                                </div>
+                            <h1>soundcloud playlists</h1>
+                            <a href="https://soundcloud.com/teddy-rerei/sets/nyashinski" class="btn razo-btn btn-2">NYASHINSKI</a>
 
-                            </div>
-                            <div class="col-lg-12 col-xl-3">
-                                <div class="select-wrap">
-                                    <span class="icon"><span class="icon-keyboard_arrow_down"></span></span>
-                                    <select class="form-control" name="" id="">
-                        <option value="">genres</option>
-                        <option value="">RnB</option>
-                        <option value="">HipHop</option>
-                        <option value="">Bongo</option>
-                        <option value="">Rock</option>
-                        <option value="">Classic</option>
-                        <option value="">Instrumental</option>
-                      </select>
-                                </div>
-                            </div>
-                            <div class="col-lg-12 col-xl-2 ml-auto text-right">
-                                <input type="submit" class="btn btn-primary" value="Search">
-                            </div>
+
+                            <div id="cp_widget_cbb1b854-9ee1-4cd8-9098-e7d5ec60c104">...</div>
+                            <script type="text/javascript">
+                                var cpo = [];
+                                cpo["_object"] = "cp_widget_cbb1b854-9ee1-4cd8-9098-e7d5ec60c104";
+                                cpo["_fid"] = "AUDA_guyqONX";
+                                var _cpmp = _cpmp || [];
+                                _cpmp.push(cpo);
+                                (function() {
+                                    var cp = document.createElement("script");
+                                    cp.type = "text/javascript";
+                                    cp.async = true;
+                                    cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+                                    var c = document.getElementsByTagName("script")[0];
+                                    c.parentNode.insertBefore(cp, c);
+                                })();
+                            </script><noscript><span>New Gallery 2019/7/18</span></noscript>
+
 
                         </div>
                     </div>
@@ -353,7 +372,7 @@
                 <div class="music-content d-flex align-items-center">
                     <div class="audio-player">
                         <audio controls>
-                        <source src="audio/old-town-road.mp3" type="audio/mpeg">
+                        <source src="audio/old-town-road.mp3" type="audio/mpeg" autostart="true">
                     </audio>
                     </div>
                     <div class="music-title">
@@ -367,7 +386,7 @@
                 <div class="music-content d-flex align-items-center">
                     <div class="audio-player">
                         <audio controls>
-                            <source src="audio/better.mp3" type="audio/mpeg">
+                            <source src="audio/better.mp3" type="audio/mpeg" autostart="true">
                         </audio>
                     </div>
                     <div class="music-title">
@@ -380,7 +399,7 @@
                 <div class="music-content d-flex align-items-center">
                     <div class="audio-player">
                         <audio controls>
-                                <source src="audio/bluffin.mp3" type="audio/mpeg">
+                                <source src="audio/bluffin.mp3" type="audio/mpeg" autostart="true">
                             </audio>
                     </div>
                     <div class="music-title">
@@ -394,11 +413,11 @@
                 <div class="music-content d-flex align-items-center">
                     <div class="audio-player">
                         <audio controls>
-                                    <source src="don't-pretend.mp3" type="audio/mpeg">
+                                    <source src="audio/Ethic-Pandana.mp3" type="audio/mpeg" autostart="true">
                                 </audio>
                     </div>
                     <div class="music-title">
-                        <h5>don't pretend - <span>KHALID</span></h5>
+                        <h5>Pandana - <span>ETHIC</span></h5>
                     </div>
                 </div>
             </div>
@@ -408,7 +427,7 @@
                 <div class="music-content d-flex align-items-center">
                     <div class="audio-player">
                         <audio controls>
-                                        <source src="audio/free spirit.mp3" type="audio/mpeg">
+                                        <source src="audio/free spirit.mp3" type="audio/mpeg" autostart="true">
                                     </audio>
                     </div>
                     <div class="music-title">
@@ -423,7 +442,7 @@
                 <div class="music-content d-flex align-items-center">
                     <div class="audio-player">
                         <audio controls>
-                                            <source src="audio/heaven.mp3" type="audio/mpeg">
+                                            <source src="audio/heaven.mp3" type="audio/mpeg" autostart="true">
                                         </audio>
                     </div>
                     <div class="music-title">
@@ -437,7 +456,7 @@
                 <div class="music-content d-flex align-items-center">
                     <div class="audio-player">
                         <audio controls>
-                                                <source src="audio/hundred.mp3" type="audio/mpeg">
+                                                <source src="audio/hundred.mp3" type="audio/mpeg" autostart="true">
                                             </audio>
                     </div>
                     <div class="music-title">
@@ -450,7 +469,7 @@
                 <div class="music-content d-flex align-items-center">
                     <div class="audio-player">
                         <audio controls>
-                                                    <source src="audio/saturday night.mp3" type="audio/mpeg">
+                                                    <source src="audio/saturday night.mp3" type="audio/mpeg" autostart="true">
                                                 </audio>
                     </div>
                     <div class="music-title">
@@ -460,11 +479,11 @@
             </div>
 
 
-            <div class="single-music-chart d-flex align-items-center justify-content-between wow fadeInUp" data-wow-delay="500s">
+            <div class="single-music-chart d-flex align-items-center justify-content-between wow fadeInUp" data-wow-delay="500ms">
                 <div class="music-content d-flex align-items-center">
                     <div class="audio-player">
                         <audio controls>
-                                                        <source src="audio/alladin.mp3" type="audio/mpeg">
+                                                        <source src="audio/alladin.mp3" type="audio/mpeg" >
                                                     </audio>
                     </div>
                     <div class="music-title">
@@ -495,6 +514,7 @@
                 </div>
             </div>
 
+
             <div class="row">
                 <!-- Featured Trending Video -->
                 <div class="col-12">
@@ -502,7 +522,6 @@
                         <iframe src="https://www.youtube.com/embed/iLwtAkA9uNo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
-
                 <!-- Single Post Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="razo-single-post d-flex mb-30 wow fadeInUp" data-wow-delay="100ms">
@@ -610,6 +629,239 @@
                         </div>
                     </div>
                 </div>
+
+
+
+                <feed>
+                    <id>tag:google.com,2005:reader/user/04304157543639572674/state/com.google/alerts/15405474276057554952</id>
+                    <title>Google Alert - music</title>
+                    <link href="https://www.google.com/alerts/feeds/04304157543639572674/15405474276057554952" rel="self" />
+                    <updated>2019-07-19T03:51:37Z</updated>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:11082021163540809373</id>
+                        <title type="html">The first Lollapalooza debuted</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://www.thecurrent.org/feature/2019/07/12/today-in-music-history-the-first-lollapalooza-debuted&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNGF74NweX_zU0B2pMOVa70-gZi2ag" />
+                        <published>2019-07-19T03:51:37Z</published>
+                        <updated>2019-07-19T03:51:37Z</updated>
+                        <content type="html">Today in <b>Music</b> History: The first Lollapalooza debuted. July 18, 2019. the currents morning show. Tove Lo Lollapalooza in 2017 in Chicago.</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:6390650203836406289</id>
+                        <title type="html">Primary Wave <b>Music</b> Publishing Acquires Stake in Dave Navarro&#39;s Catalog</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://variety.com/2019/music/news/primary-wave-dave-navarro-publishing-1203272732/&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNHfEXUGSjL16e9N66XRccGSLwqaBg" />
+                        <published>2019-07-19T01:07:30Z</published>
+                        <updated>2019-07-19T01:07:30Z</updated>
+                        <content type="html">Primary Wave <b>Music</b> Publishing has acquired an interest in Dave Navarro&#39;s <b>music</b> publishing catalog, master revenue streams, and writer&#39;s share&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:16600893514585121319</id>
+                        <title type="html">Jackson Area Plectral Society preserve old time string <b>music</b></title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://www.wbbjtv.com/2019/07/18/jackson-area-plectral-society-preserve-old-time-string-music/&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNHdLTtihjhy1JaG4hyaz8iMhUNWNg" />
+                        <published>2019-07-19T00:45:00Z</published>
+                        <updated>2019-07-19T00:45:00Z</updated>
+                        <content type="html">They perform and practice any <b>music</b> from the 1700&#39;s to the 1800&#39;s leading up to the 1930&#39;s. Attendees play banjos, guitars, fiddles and more.</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:9754331131406324419</id>
+                        <title type="html">Compass <b>Music</b> Camp gives direction to future mid-Missouri musicians</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=http://krcgtv.com/news/local/compass-music-camp-gives-direction-to-future-mid-missouri-musicians&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNHRi833IyLkOAALHfUtESl6yqchyQ" />
+                        <published>2019-07-19T00:00:00Z</published>
+                        <updated>2019-07-19T00:00:00Z</updated>
+                        <content type="html">Every year about 30 kids participate in a six-day <b>music</b> program where they learn everything from writing <b>music</b>, to playing it and even recording it as a&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:15314742748260491045</id>
+                        <title type="html">NYC&#39;s coolest museums are open late for cocktails, <b>music</b> and more</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://nypost.com/2019/07/18/nycs-coolest-museums-are-open-late-for-cocktails-music-and-more/&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNFPtZX1mXowTiOFhzNeaXcJmmvPqg" />
+                        <published>2019-07-18T23:03:45Z</published>
+                        <updated>2019-07-18T23:03:45Z</updated>
+                        <content type="html">Why not enjoy your next night out with a side of art? Museums are getting down after hours this summer with live <b>music</b>, dance, movies and themed&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:16645604608431926467</id>
+                        <title type="html">Beyonce &#39;Spirit&#39; <b>music</b> video: &#39;The Lion King&#39; anthem accompanied by African dancers and Bey&#39;s ...</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://www.goldderby.com/article/2019/beyonce-spirit-music-video-the-lion-king-blue-ivy-carter-news/&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNGO3swaouU5bx7tkN6fifzalIQe0A" />
+                        <published>2019-07-18T21:56:15Z</published>
+                        <updated>2019-07-18T21:56:15Z</updated>
+                        <content type="html">Beyonce released her single “Spirit” on July 10 in anticipation of Disney&#39;s live-action remake of “The Lion King,” which opens on July 19 and features&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:7248186442231629425</id>
+                        <title type="html">5 Classical <b>Music</b> Concerts to See in NYC This Weekend</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://www.nytimes.com/2019/07/18/arts/music/nyc-this-weekend-classical-music.html&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNHyqtNPggKDpGmvg_MSZUywrd_NbA" />
+                        <published>2019-07-18T21:00:00Z</published>
+                        <updated>2019-07-18T21:00:00Z</updated>
+                        <content type="html">Our guide to the city&#39;s best classical <b>music</b> and opera happening this weekend and in the week ahead. &#39;THE BLACK CLOWN&#39; at the Gerald W. Lynch&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:373568030419735089</id>
+                        <title type="html">11 great Northern California <b>music</b> festivals this summer and fall</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://www.mercurynews.com/2019/07/18/8-great-northern-california-music-festivals-this-summer-and-fall/&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNGO9GJcFwumuSt7TV1lD03urYv_Ww" />
+                        <published>2019-07-18T20:40:34Z</published>
+                        <updated>2019-07-18T20:40:34Z</updated>
+                        <content type="html">Northern California boasts an abundance of <b>music</b> festivals that combine a day (or more!) of <b>music</b> with plenty of celebratory extras. This octet of&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:729566704231802479</id>
+                        <title type="html">Paul McCartney Is Writing <b>Music</b> and Lyrics for an It&#39;s a Wonderful Life <b>Musical</b></title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://slate.com/culture/2019/07/paul-mccartney-its-a-wonderful-life-musical.html&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNFXSSMaAhi-apIKUQW7O1_wKSYELQ" />
+                        <published>2019-07-18T20:26:15Z</published>
+                        <updated>2019-07-18T20:26:15Z</updated>
+                        <content type="html">Paul McCartney is almost done with the score of his first theatrical <b>musical</b>, an adaptation of Frank Capra&#39;s 1946 film It&#39;s a Wonderful Life. In a post on&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:1371717715240670244</id>
+                        <title type="html">YouTube <b>Music</b> adds toggle to seamlessly switch between <b>music</b> videos and <b>music</b> during playback</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://www.androidpolice.com/2019/07/18/youtube-music-adds-toggle-to-disable-music-videos-during-playback/&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNFEglv2kQ03vT0URAxxma4uoc-aJw"
+                        />
+                        <published>2019-07-18T20:06:00Z</published>
+                        <updated>2019-07-18T20:06:00Z</updated>
+                        <content type="html">It was inevitable that Google&#39;s <b>music</b> streaming service would be video-focused once placed in the hands of YouTube, but plenty of folks interested in&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:16203491309148799118</id>
+                        <title type="html">12 of the Best <b>Music</b> Shows This Week in LA</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://www.laweekly.com/12-of-the-best-music-shows-this-week-in-l-a-6/&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNH0tu0ts8xE154orwo9XvXUcZPodw" />
+                        <published>2019-07-18T19:52:30Z</published>
+                        <updated>2019-07-18T19:52:30Z</updated>
+                        <content type="html">All silliness aside though, this is a great bill for lovers of &#39;60s <b>music</b>, headlined, as the name of the tour suggests, by The Turtles. “Happy Together” is&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:5199305978080357535</id>
+                        <title type="html">Top 5 things we are most excited about at Cincinnati <b>Music</b> Festival</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://www.cincinnati.com/story/entertainment/music/2019/07/18/cincinnati-music-festival-top-5-things-we-most-excited/1748644001/&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNFMspgxpETEbuJ33SnJxraILRr3-Q"
+                        />
+                        <published>2019-07-18T19:30:00Z</published>
+                        <updated>2019-07-18T19:30:00Z</updated>
+                        <content type="html">Her draw is deserved; the talented singer could find herself higher up on a Cincinnati <b>Music</b> Festival bill in subsequent years with some good&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:13303784625364874781</id>
+                        <title type="html">YouTube <b>Music</b> will now let you roll between tracks and video</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://www.cnet.com/news/new-youtube-music-feature-allows-users-to-switch-to-the-music-video/&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNG1H7ldxoPYEr6VN-FsWTjga3L7SQ" />
+                        <published>2019-07-18T19:30:00Z</published>
+                        <updated>2019-07-18T19:30:00Z</updated>
+                        <content type="html">YouTube <b>Music</b> fans, you can now easily switch between songs and <b>music</b> videos. With a tap of a button and no pause, subscribers can flip between&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:17990876534468497911</id>
+                        <title type="html">Doc Talk: More moon, more Morris, more <b>music</b></title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://www.bostonglobe.com/arts/movies/2019/07/18/doc-talk-more-moon-more-morris-more-music/OQPp31k1PLsWYzG6FGMrXO/story.html&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNH01HjFb2I9fIBL9jxxze-GMF623A"
+                        />
+                        <published>2019-07-18T19:05:22Z</published>
+                        <updated>2019-07-18T19:05:22Z</updated>
+                        <content type="html">Perhaps the recent spate of films released to commemorate the 50th anniversary of Apollo 11 landing on the moon will inspire a new enthusiasm for&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:18198555060501835132</id>
+                        <title type="html">Beyonce&#39;s &#39;Spirit&#39; <b>music</b> video partly filmed in Apple Valley</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://abc7.com/entertainment/beyonces-spirit-music-video-partly-filmed-in-apple-valley/5404020/&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNEuaFPOOGMJW7ehbLDweJgt8EnUAw" />
+                        <published>2019-07-18T18:33:45Z</published>
+                        <updated>2019-07-18T18:33:45Z</updated>
+                        <content type="html">Beyonce&#39;s &#39;Spirit&#39; <b>music</b> video partly filmed in Apple Valley ... The town of Apple Valley just revealed the role it played in Beyonce&#39;s <b>music</b> video for a&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:11851748514325635121</id>
+                        <title type="html">PREMIERE: Nobide Shares New Single &amp; <b>Music</b> Video, “In The Night” [Watch/Listen]</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://liveforlivemusic.com/features/exclusives/nobide-inthenight-video/&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNEopOOI8YLDp-Qwh7GW0cM0xHbL2w" />
+                        <published>2019-07-18T18:00:00Z</published>
+                        <updated>2019-07-18T18:00:00Z</updated>
+                        <content type="html">Rising Denver, CO-based live-electronic trio Nobide has been steadily garnering acclaim over the last two years with a steady stream of single&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:17523490762301996209</id>
+                        <title type="html">Ezra Collective</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://www.songkick.com/concerts/38997512-ezra-collective-at-brighton-music-hall&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNEy6QHHT51g1qmzNLFkwGl_Wsr_ig" />
+                        <published>2019-07-18T17:54:42Z</published>
+                        <updated>2019-07-18T17:54:42Z</updated>
+                        <content type="html">Buy tickets for Ezra Collective&#39;s upcoming concert at Brighton <b>Music</b> Hall in Boston on 07 Dec 2019.</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:12753612952362148108</id>
+                        <title type="html">Paul McCartney will put his spin on &#39;It&#39;s a Wonderful Life&#39; for the stage</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://www.latimes.com/entertainment-arts/music/story/2019-07-18/paul-mccartney-its-a-wonderful-life&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNG4rQZKU4svXBBprbPCxe_EedeULw" />
+                        <published>2019-07-18T17:45:54Z</published>
+                        <updated>2019-07-18T17:45:54Z</updated>
+                        <content type="html">George Bailey, meet Paul McCartney. The former Beatle, who, at 77, is fresh off a concert performance at Dodger Stadium, is working on <b>music</b> and&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:5972961496912408112</id>
+                        <title type="html">YouTube <b>Music</b> adds seamless switching between audio and videos</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://www.engadget.com/2019/07/18/youtube-music-seamless-switching-audio-videos/&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNFarbzHOeecWXfdTKcKTpGOnRVcMg" />
+                        <published>2019-07-18T17:37:30Z</published>
+                        <updated>2019-07-18T17:37:30Z</updated>
+                        <content type="html">If you&#39;re a YouTube Premium or <b>Music</b> Premium subscriber, switching between a song and its <b>music</b> video should be smoother as of today. You can&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                    <entry>
+                        <id>tag:google.com,2013:googlealerts/feed:12092372532275554428</id>
+                        <title type="html">YouTube <b>Music</b> now lets you flip between a song and its <b>music</b> video with a tap</title>
+                        <link href="https://www.google.com/url?rct=j&sa=t&url=https://www.theverge.com/2019/7/18/20699482/youtube-music-song-video-tap-switch&ct=ga&cd=CAIyGmIwNzg3MWQzNzczODBmMDk6Y29tOmVuOlVT&usg=AFQjCNFtJ4fj_c6kuZbOMaiMctRuMo2hgg" />
+                        <published>2019-07-18T17:37:30Z</published>
+                        <updated>2019-07-18T17:37:30Z</updated>
+                        <content type="html">YouTube <b>Music</b> has introduced a neat little feature that lets users flip between listening to a song to watching that song&#39;s <b>music</b> video without any&nbsp;...</content>
+                        <author>
+                            <name/>
+                        </author>
+                    </entry>
+                </feed>
+
 
             </div>
         </div>
